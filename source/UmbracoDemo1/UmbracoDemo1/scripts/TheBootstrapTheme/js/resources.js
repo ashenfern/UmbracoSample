@@ -1,0 +1,1 @@
+(function(a){a(document).ready(function(){a(".nav-spacing").height(a("header.navbar").height());setInterval(function(){var b=a("footer").outerHeight(true)+30;a(".theme-wrapper").css("padding-bottom",b);a(".nav-spacing").height(a("header.navbar").height());a("footer").addClass("footerShow")},1000)})})(jQuery);
